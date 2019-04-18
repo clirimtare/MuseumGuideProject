@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MuseumGuideProject
 {
-    public partial class Form1 : Form
+    public partial class Category : Form
     {
-        public Form1()
+        public Category()
         {
             InitializeComponent();
         }
