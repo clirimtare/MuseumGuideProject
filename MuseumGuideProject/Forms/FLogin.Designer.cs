@@ -42,10 +42,12 @@
             this.tbPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.tbUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnReset = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnLogin = new Bunifu.Framework.UI.BunifuImageButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.btnReset = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
@@ -53,9 +55,9 @@
             this.pnlLeftTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnReset)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnReset)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlTop
@@ -140,10 +142,11 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(782, 61);
+            this.panel1.Location = new System.Drawing.Point(783, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 589);
+            this.panel1.Size = new System.Drawing.Size(209, 589);
             this.panel1.TabIndex = 12;
             // 
             // panel3
@@ -166,9 +169,9 @@
             this.tbPassword.HintForeColor = System.Drawing.Color.Empty;
             this.tbPassword.HintText = "";
             this.tbPassword.isPassword = true;
-            this.tbPassword.LineFocusedColor = System.Drawing.Color.Blue;
+            this.tbPassword.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbPassword.LineIdleColor = System.Drawing.Color.Gray;
-            this.tbPassword.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.tbPassword.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbPassword.LineThickness = 3;
             this.tbPassword.Location = new System.Drawing.Point(41, 261);
             this.tbPassword.Margin = new System.Windows.Forms.Padding(4);
@@ -191,9 +194,9 @@
             this.tbUsername.HintForeColor = System.Drawing.Color.Empty;
             this.tbUsername.HintText = "";
             this.tbUsername.isPassword = false;
-            this.tbUsername.LineFocusedColor = System.Drawing.Color.Blue;
+            this.tbUsername.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbUsername.LineIdleColor = System.Drawing.Color.Gray;
-            this.tbUsername.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.tbUsername.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbUsername.LineThickness = 3;
             this.tbUsername.Location = new System.Drawing.Point(41, 205);
             this.tbUsername.Margin = new System.Windows.Forms.Padding(4);
@@ -207,6 +210,9 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.Controls.Add(this.bunifuCustomLabel1);
+            this.panel2.Controls.Add(this.bunifuCustomLabel2);
             this.panel2.Controls.Add(this.btnReset);
             this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Controls.Add(this.pictureBox3);
@@ -216,6 +222,19 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(391, 589);
             this.panel2.TabIndex = 15;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
+            this.btnReset.ImageActive = null;
+            this.btnReset.Location = new System.Drawing.Point(218, 346);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(123, 103);
+            this.btnReset.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnReset.TabIndex = 24;
+            this.btnReset.TabStop = false;
+            this.btnReset.Zoom = 10;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click_1);
             // 
             // btnLogin
             // 
@@ -247,18 +266,27 @@
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // btnReset
+            // bunifuCustomLabel2
             // 
-            this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
-            this.btnReset.ImageActive = null;
-            this.btnReset.Location = new System.Drawing.Point(218, 346);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(123, 103);
-            this.btnReset.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnReset.TabIndex = 24;
-            this.btnReset.TabStop = false;
-            this.btnReset.Zoom = 10;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click_1);
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(78, 452);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(65, 25);
+            this.bunifuCustomLabel2.TabIndex = 25;
+            this.bunifuCustomLabel2.Text = "Login ";
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(248, 452);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(62, 25);
+            this.bunifuCustomLabel1.TabIndex = 26;
+            this.bunifuCustomLabel1.Text = "Reset";
             // 
             // FLogin
             // 
@@ -285,9 +313,10 @@
             this.pnlLeftTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnReset)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnReset)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -309,5 +338,7 @@
         private Bunifu.Framework.UI.BunifuImageButton btnLogin;
         private System.Windows.Forms.PictureBox pictureBox3;
         private Bunifu.Framework.UI.BunifuImageButton btnReset;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
     }
 }
