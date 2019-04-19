@@ -82,8 +82,9 @@
             this.panel7.Controls.Add(this.tbDescription);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(669, 632);
+            this.panel7.Size = new System.Drawing.Size(596, 514);
             this.panel7.TabIndex = 8;
             // 
             // dlPriority
@@ -113,9 +114,10 @@
             this.dlPriority.Items.AddRange(new object[] {
             "Filiz ",
             "Ferizi"});
-            this.dlPriority.Location = new System.Drawing.Point(244, 421);
+            this.dlPriority.Location = new System.Drawing.Point(183, 342);
+            this.dlPriority.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dlPriority.Name = "dlPriority";
-            this.dlPriority.Size = new System.Drawing.Size(213, 32);
+            this.dlPriority.Size = new System.Drawing.Size(161, 32);
             this.dlPriority.TabIndex = 17;
             this.dlPriority.Text = null;
             // 
@@ -143,9 +145,10 @@
             this.dlSector.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dlSector.ItemHeight = 26;
             this.dlSector.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
-            this.dlSector.Location = new System.Drawing.Point(244, 561);
+            this.dlSector.Location = new System.Drawing.Point(183, 456);
+            this.dlSector.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dlSector.Name = "dlSector";
-            this.dlSector.Size = new System.Drawing.Size(213, 32);
+            this.dlSector.Size = new System.Drawing.Size(161, 32);
             this.dlSector.TabIndex = 16;
             this.dlSector.Text = null;
             // 
@@ -173,9 +176,10 @@
             this.dlFLoor.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dlFLoor.ItemHeight = 26;
             this.dlFLoor.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
-            this.dlFLoor.Location = new System.Drawing.Point(244, 496);
+            this.dlFLoor.Location = new System.Drawing.Point(183, 403);
+            this.dlFLoor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dlFLoor.Name = "dlFLoor";
-            this.dlFLoor.Size = new System.Drawing.Size(213, 32);
+            this.dlFLoor.Size = new System.Drawing.Size(161, 32);
             this.dlFLoor.TabIndex = 15;
             this.dlFLoor.Text = null;
             // 
@@ -184,9 +188,10 @@
             this.bunifuCustomLabel7.AutoSize = true;
             this.bunifuCustomLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(46, 561);
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(34, 456);
+            this.bunifuCustomLabel7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(80, 25);
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(64, 20);
             this.bunifuCustomLabel7.TabIndex = 14;
             this.bunifuCustomLabel7.Text = "Sector :";
             // 
@@ -195,9 +200,10 @@
             this.bunifuCustomLabel6.AutoSize = true;
             this.bunifuCustomLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(46, 503);
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(34, 409);
+            this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(67, 25);
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(53, 20);
             this.bunifuCustomLabel6.TabIndex = 13;
             this.bunifuCustomLabel6.Text = "Floor :";
             // 
@@ -206,9 +212,10 @@
             this.bunifuCustomLabel5.AutoSize = true;
             this.bunifuCustomLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(46, 428);
+            this.bunifuCustomLabel5.Location = new System.Drawing.Point(34, 348);
+            this.bunifuCustomLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(82, 25);
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(64, 20);
             this.bunifuCustomLabel5.TabIndex = 12;
             this.bunifuCustomLabel5.Text = "Priority :";
             // 
@@ -217,9 +224,10 @@
             this.bunifuCustomLabel4.AutoSize = true;
             this.bunifuCustomLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(46, 354);
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(34, 288);
+            this.bunifuCustomLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(67, 25);
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(52, 20);
             this.bunifuCustomLabel4.TabIndex = 11;
             this.bunifuCustomLabel4.Text = "Price :";
             // 
@@ -228,9 +236,10 @@
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuCustomLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(46, 283);
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(34, 230);
+            this.bunifuCustomLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(103, 25);
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(81, 20);
             this.bunifuCustomLabel3.TabIndex = 10;
             this.bunifuCustomLabel3.Text = "Category :";
             // 
@@ -239,9 +248,10 @@
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(46, 131);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(34, 106);
+            this.bunifuCustomLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(120, 25);
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(97, 20);
             this.bunifuCustomLabel2.TabIndex = 9;
             this.bunifuCustomLabel2.Text = "Description :";
             // 
@@ -250,9 +260,10 @@
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(46, 79);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(34, 64);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(75, 25);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(59, 20);
             this.bunifuCustomLabel1.TabIndex = 8;
             this.bunifuCustomLabel1.Text = "Name :";
             // 
@@ -280,9 +291,10 @@
             this.dlCategory.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dlCategory.ItemHeight = 26;
             this.dlCategory.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
-            this.dlCategory.Location = new System.Drawing.Point(244, 276);
+            this.dlCategory.Location = new System.Drawing.Point(183, 224);
+            this.dlCategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dlCategory.Name = "dlCategory";
-            this.dlCategory.Size = new System.Drawing.Size(213, 32);
+            this.dlCategory.Size = new System.Drawing.Size(161, 32);
             this.dlCategory.TabIndex = 7;
             this.dlCategory.Text = null;
             // 
@@ -301,11 +313,10 @@
             this.tbName.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tbName.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbName.LineThickness = 3;
-            this.tbName.Location = new System.Drawing.Point(244, 59);
-            this.tbName.Margin = new System.Windows.Forms.Padding(4);
+            this.tbName.Location = new System.Drawing.Point(183, 48);
             this.tbName.MaxLength = 32767;
             this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(221, 45);
+            this.tbName.Size = new System.Drawing.Size(166, 37);
             this.tbName.TabIndex = 3;
             this.tbName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -324,11 +335,10 @@
             this.tbPrice.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tbPrice.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbPrice.LineThickness = 3;
-            this.tbPrice.Location = new System.Drawing.Point(244, 334);
-            this.tbPrice.Margin = new System.Windows.Forms.Padding(4);
+            this.tbPrice.Location = new System.Drawing.Point(183, 271);
             this.tbPrice.MaxLength = 32767;
             this.tbPrice.Name = "tbPrice";
-            this.tbPrice.Size = new System.Drawing.Size(221, 45);
+            this.tbPrice.Size = new System.Drawing.Size(166, 37);
             this.tbPrice.TabIndex = 2;
             this.tbPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -343,11 +353,10 @@
             this.tbDescription.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.tbDescription.ForeColor = System.Drawing.Color.White;
             this.tbDescription.isPassword = false;
-            this.tbDescription.Location = new System.Drawing.Point(244, 131);
-            this.tbDescription.Margin = new System.Windows.Forms.Padding(4);
+            this.tbDescription.Location = new System.Drawing.Point(183, 106);
             this.tbDescription.MaxLength = 32767;
             this.tbDescription.Name = "tbDescription";
-            this.tbDescription.Size = new System.Drawing.Size(213, 106);
+            this.tbDescription.Size = new System.Drawing.Size(160, 86);
             this.tbDescription.TabIndex = 0;
             this.tbDescription.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -356,9 +365,10 @@
             this.btnMinimize.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnMinimize.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimize.Image")));
             this.btnMinimize.ImageActive = null;
-            this.btnMinimize.Location = new System.Drawing.Point(227, 3);
+            this.btnMinimize.Location = new System.Drawing.Point(171, 2);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(50, 44);
+            this.btnMinimize.Size = new System.Drawing.Size(38, 36);
             this.btnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnMinimize.TabIndex = 9;
             this.btnMinimize.TabStop = false;
@@ -370,9 +380,10 @@
             this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(283, 3);
+            this.btnClose.Location = new System.Drawing.Point(213, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(48, 44);
+            this.btnClose.Size = new System.Drawing.Size(36, 36);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnClose.TabIndex = 8;
             this.btnClose.TabStop = false;
@@ -390,9 +401,10 @@
             this.panel4.Controls.Add(this.panel1);
             this.panel4.Controls.Add(this.panel3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(789, 0);
+            this.panel4.Location = new System.Drawing.Point(589, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(334, 632);
+            this.panel4.Size = new System.Drawing.Size(253, 514);
             this.panel4.TabIndex = 9;
             // 
             // bunifuCustomLabel8
@@ -400,9 +412,10 @@
             this.bunifuCustomLabel8.AutoSize = true;
             this.bunifuCustomLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomLabel8.Location = new System.Drawing.Point(118, 306);
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(88, 249);
+            this.bunifuCustomLabel8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
-            this.bunifuCustomLabel8.Size = new System.Drawing.Size(84, 25);
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(70, 20);
             this.bunifuCustomLabel8.TabIndex = 21;
             this.bunifuCustomLabel8.Text = "Item ID :";
             // 
@@ -430,14 +443,14 @@
             this.btnAddUtem.IconVisible = true;
             this.btnAddUtem.IconZoom = 90D;
             this.btnAddUtem.IsTab = false;
-            this.btnAddUtem.Location = new System.Drawing.Point(0, 453);
-            this.btnAddUtem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAddUtem.Location = new System.Drawing.Point(0, 368);
+            this.btnAddUtem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddUtem.Name = "btnAddUtem";
             this.btnAddUtem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.btnAddUtem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(0)))));
             this.btnAddUtem.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnAddUtem.selected = false;
-            this.btnAddUtem.Size = new System.Drawing.Size(334, 59);
+            this.btnAddUtem.Size = new System.Drawing.Size(253, 48);
             this.btnAddUtem.TabIndex = 20;
             this.btnAddUtem.Text = "     Add item ";
             this.btnAddUtem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -461,11 +474,10 @@
             this.tbItemID.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tbItemID.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(153)))), ((int)(((byte)(49)))));
             this.tbItemID.LineThickness = 3;
-            this.tbItemID.Location = new System.Drawing.Point(0, 215);
-            this.tbItemID.Margin = new System.Windows.Forms.Padding(4);
+            this.tbItemID.Location = new System.Drawing.Point(0, 175);
             this.tbItemID.MaxLength = 32767;
             this.tbItemID.Name = "tbItemID";
-            this.tbItemID.Size = new System.Drawing.Size(334, 87);
+            this.tbItemID.Size = new System.Drawing.Size(253, 71);
             this.tbItemID.TabIndex = 18;
             this.tbItemID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -493,14 +505,14 @@
             this.btnDeleteItem.IconVisible = true;
             this.btnDeleteItem.IconZoom = 90D;
             this.btnDeleteItem.IsTab = false;
-            this.btnDeleteItem.Location = new System.Drawing.Point(0, 156);
-            this.btnDeleteItem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnDeleteItem.Location = new System.Drawing.Point(0, 127);
+            this.btnDeleteItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeleteItem.Name = "btnDeleteItem";
             this.btnDeleteItem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.btnDeleteItem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(0)))));
             this.btnDeleteItem.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnDeleteItem.selected = false;
-            this.btnDeleteItem.Size = new System.Drawing.Size(334, 59);
+            this.btnDeleteItem.Size = new System.Drawing.Size(253, 48);
             this.btnDeleteItem.TabIndex = 14;
             this.btnDeleteItem.Text = "     Delete item ";
             this.btnDeleteItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -531,14 +543,14 @@
             this.btnUpdateItem.IconVisible = true;
             this.btnUpdateItem.IconZoom = 90D;
             this.btnUpdateItem.IsTab = false;
-            this.btnUpdateItem.Location = new System.Drawing.Point(0, 512);
-            this.btnUpdateItem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnUpdateItem.Location = new System.Drawing.Point(0, 416);
+            this.btnUpdateItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdateItem.Name = "btnUpdateItem";
             this.btnUpdateItem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.btnUpdateItem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(0)))));
             this.btnUpdateItem.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnUpdateItem.selected = false;
-            this.btnUpdateItem.Size = new System.Drawing.Size(334, 59);
+            this.btnUpdateItem.Size = new System.Drawing.Size(253, 48);
             this.btnUpdateItem.TabIndex = 13;
             this.btnUpdateItem.Text = "     Update item ";
             this.btnUpdateItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -551,17 +563,19 @@
             this.panel1.Controls.Add(this.btnMinimize);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(334, 156);
+            this.panel1.Size = new System.Drawing.Size(253, 127);
             this.panel1.TabIndex = 19;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 571);
+            this.panel3.Location = new System.Drawing.Point(0, 464);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(334, 61);
+            this.panel3.Size = new System.Drawing.Size(253, 50);
             this.panel3.TabIndex = 0;
             // 
             // bunifuElipse1
@@ -571,12 +585,13 @@
             // 
             // AdminArtifact
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1123, 632);
+            this.ClientSize = new System.Drawing.Size(842, 514);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AdminArtifact";
             this.Text = "AdminArtifact";
             this.Load += new System.EventHandler(this.AdminArtifact_Load);
