@@ -26,5 +26,12 @@ namespace MuseumGuideProject
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void btnArtifact_Click(object sender, EventArgs e)
+        {
+            AdminArtifact af = new AdminArtifact();
+            af.Show();
+            this.Hide();
+        }
     }
 }

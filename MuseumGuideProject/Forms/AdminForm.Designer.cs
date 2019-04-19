@@ -218,6 +218,7 @@
             this.btnArtifact.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnArtifact.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnArtifact.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArtifact.Click += new System.EventHandler(this.btnArtifact_Click);
             // 
             // panel8
             // 
