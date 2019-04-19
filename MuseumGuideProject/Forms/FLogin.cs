@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
 using MuseumGuideProject;
+using System.Security.Principal;
 
 namespace MuseumGuideProject
 {
@@ -41,8 +42,8 @@ namespace MuseumGuideProject
             SqlCon.ConnectionString = ConfigurationManager.ConnectionStrings["MuseumConn"].ConnectionString;
             SqlCon.Open();
 
-            string sql = "[UserLogin]";
-            SqlDataAdapter da = new SqlDataAdapter("[UserLogin]", SqlCon);
+            string sql = "[GetUser]";
+            SqlDataAdapter da = new SqlDataAdapter("[GetUser]", SqlCon);
 
             da.SelectCommand = new SqlCommand(sql, SqlCon);
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
@@ -65,6 +66,7 @@ namespace MuseumGuideProject
                 this.Hide();
                 AdminForm af = new AdminForm();
                 af.Show();
+              //  User strUserName = WindowsIdentity.GetCurrent().User;
 
 
             }

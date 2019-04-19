@@ -44,6 +44,9 @@
             this.btnMinimize = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.btnCategory = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnFloor = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnSector = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -95,6 +98,9 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.panel6.Controls.Add(this.btnCategory);
+            this.panel6.Controls.Add(this.btnSector);
+            this.panel6.Controls.Add(this.btnFloor);
             this.panel6.Controls.Add(this.bunifuFlatButton3);
             this.panel6.Controls.Add(this.btnFamousArtifacts);
             this.panel6.Controls.Add(this.btnArtifact);
@@ -285,6 +291,120 @@
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // btnCategory
+            // 
+            this.btnCategory.Active = false;
+            this.btnCategory.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.btnCategory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCategory.BorderRadius = 0;
+            this.btnCategory.ButtonText = "     Category";
+            this.btnCategory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCategory.DisabledColor = System.Drawing.Color.Gray;
+            this.btnCategory.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCategory.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnCategory.Iconimage = null;
+            this.btnCategory.Iconimage_right = null;
+            this.btnCategory.Iconimage_right_Selected = null;
+            this.btnCategory.Iconimage_Selected = null;
+            this.btnCategory.IconMarginLeft = 0;
+            this.btnCategory.IconMarginRight = 0;
+            this.btnCategory.IconRightVisible = true;
+            this.btnCategory.IconRightZoom = 0D;
+            this.btnCategory.IconVisible = true;
+            this.btnCategory.IconZoom = 90D;
+            this.btnCategory.IsTab = false;
+            this.btnCategory.Location = new System.Drawing.Point(0, 389);
+            this.btnCategory.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnCategory.Name = "btnCategory";
+            this.btnCategory.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.btnCategory.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(0)))));
+            this.btnCategory.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCategory.selected = false;
+            this.btnCategory.Size = new System.Drawing.Size(264, 59);
+            this.btnCategory.TabIndex = 12;
+            this.btnCategory.Text = "     Category";
+            this.btnCategory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCategory.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCategory.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnFloor
+            // 
+            this.btnFloor.Active = false;
+            this.btnFloor.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnFloor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.btnFloor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFloor.BorderRadius = 0;
+            this.btnFloor.ButtonText = "     Floor";
+            this.btnFloor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFloor.DisabledColor = System.Drawing.Color.Gray;
+            this.btnFloor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFloor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFloor.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnFloor.Iconimage = null;
+            this.btnFloor.Iconimage_right = null;
+            this.btnFloor.Iconimage_right_Selected = null;
+            this.btnFloor.Iconimage_Selected = null;
+            this.btnFloor.IconMarginLeft = 0;
+            this.btnFloor.IconMarginRight = 0;
+            this.btnFloor.IconRightVisible = true;
+            this.btnFloor.IconRightZoom = 0D;
+            this.btnFloor.IconVisible = true;
+            this.btnFloor.IconZoom = 90D;
+            this.btnFloor.IsTab = false;
+            this.btnFloor.Location = new System.Drawing.Point(0, 271);
+            this.btnFloor.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnFloor.Name = "btnFloor";
+            this.btnFloor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.btnFloor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(0)))));
+            this.btnFloor.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnFloor.selected = false;
+            this.btnFloor.Size = new System.Drawing.Size(264, 59);
+            this.btnFloor.TabIndex = 13;
+            this.btnFloor.Text = "     Floor";
+            this.btnFloor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloor.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnFloor.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnSector
+            // 
+            this.btnSector.Active = false;
+            this.btnSector.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSector.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.btnSector.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSector.BorderRadius = 0;
+            this.btnSector.ButtonText = "     Sector";
+            this.btnSector.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSector.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSector.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSector.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSector.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSector.Iconimage = null;
+            this.btnSector.Iconimage_right = null;
+            this.btnSector.Iconimage_right_Selected = null;
+            this.btnSector.Iconimage_Selected = null;
+            this.btnSector.IconMarginLeft = 0;
+            this.btnSector.IconMarginRight = 0;
+            this.btnSector.IconRightVisible = true;
+            this.btnSector.IconRightZoom = 0D;
+            this.btnSector.IconVisible = true;
+            this.btnSector.IconZoom = 90D;
+            this.btnSector.IsTab = false;
+            this.btnSector.Location = new System.Drawing.Point(0, 330);
+            this.btnSector.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnSector.Name = "btnSector";
+            this.btnSector.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.btnSector.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(136)))), ((int)(((byte)(0)))));
+            this.btnSector.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSector.selected = false;
+            this.btnSector.Size = new System.Drawing.Size(264, 59);
+            this.btnSector.TabIndex = 14;
+            this.btnSector.Text = "     Sector";
+            this.btnSector.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSector.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSector.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -325,5 +445,8 @@
         private Bunifu.Framework.UI.BunifuImageButton btnClose;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnCategory;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSector;
+        private Bunifu.Framework.UI.BunifuFlatButton btnFloor;
     }
 }
