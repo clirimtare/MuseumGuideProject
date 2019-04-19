@@ -19,12 +19,14 @@ namespace MuseumGuideProject
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
-
+            WindowState = FormWindowState.Minimized;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            AdminForm af = new AdminForm();
+            af.Show();
         }
     }
 }
