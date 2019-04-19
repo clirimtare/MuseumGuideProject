@@ -62,6 +62,15 @@ namespace MuseumGuideProject
             }
             else if (dt.Rows.Count == 1)
             {
+                SqlDataAdapter sqd = new SqlDataAdapter("[GetUserID]", SqlCon);
+                sqd.SelectCommand.CommandType = CommandType.StoredProcedure;
+                sqd.SelectCommand.Parameters.AddWithValue("@Username", tbUsername.Text);
+                sqd.SelectCommand.Parameters.AddWithValue("@Password", tbPassword.Text);
+
+                
+                DataTable dtl = new DataTable();
+                sqd.Fill(dtl);
+
 
                 this.Hide();
                 AdminForm af = new AdminForm();
