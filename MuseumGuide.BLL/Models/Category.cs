@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MuseumGuide.BLL
 {
-    public class Class1
+    class Category
     {
+        public int CategoryID { get; set; }
+        public string Type { get; set; }
+        
     }
 }

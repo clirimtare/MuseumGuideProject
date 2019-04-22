@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseumGuide", "MuseumGuideProject\MuseumGuide.csproj", "{B2FB87F5-E002-48CD-B87C-C0E05DE21A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseumGuide.BO", "MuseumGuide.BO\MuseumGuide.BO.csproj", "{F57A2CFC-BE3C-4AF9-82F4-E92C695A1830}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseumGuide.BOL", "MuseumGuide.BO\MuseumGuide.BOL.csproj", "{F57A2CFC-BE3C-4AF9-82F4-E92C695A1830}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseumGuide.BLL", "MuseumGuide.BLL\MuseumGuide.BLL.csproj", "{54F0D9AC-7F77-4F98-8247-85DF8EF23E65}"
 EndProject

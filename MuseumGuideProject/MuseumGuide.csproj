@@ -72,34 +72,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\AdminArtifact.cs">
+    <Compile Include="Presentation Layer\AdminArtifact.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AdminArtifact.Designer.cs">
+    <Compile Include="Presentation Layer\AdminArtifact.Designer.cs">
       <DependentUpon>AdminArtifact.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AdminForm.cs">
+    <Compile Include="Presentation Layer\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AdminForm.Designer.cs">
+    <Compile Include="Presentation Layer\AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Category.cs">
+    <Compile Include="Presentation Layer\Category.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Category.Designer.cs">
+    <Compile Include="Presentation Layer\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FLogin.cs">
+    <Compile Include="Presentation Layer\FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FLogin.Designer.cs">
+    <Compile Include="Presentation Layer\FLogin.Designer.cs">
       <DependentUpon>FLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FMenu.cs">
+    <Compile Include="Presentation Layer\FMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FMenu.Designer.cs">
+    <Compile Include="Presentation Layer\FMenu.Designer.cs">
       <DependentUpon>FMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="MuseumDataSet.Designer.cs">
@@ -109,19 +109,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\AdminArtifact.resx">
+    <EmbeddedResource Include="Presentation Layer\AdminArtifact.resx">
       <DependentUpon>AdminArtifact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AdminForm.resx">
+    <EmbeddedResource Include="Presentation Layer\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Category.resx">
+    <EmbeddedResource Include="Presentation Layer\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FLogin.resx">
+    <EmbeddedResource Include="Presentation Layer\FLogin.resx">
       <DependentUpon>FLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FMenu.resx">
+    <EmbeddedResource Include="Presentation Layer\FMenu.resx">
       <DependentUpon>FMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -165,9 +165,9 @@
       <Project>{54f0d9ac-7f77-4f98-8247-85df8ef23e65}</Project>
       <Name>MuseumGuide.BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MuseumGuide.BO\MuseumGuide.BO.csproj">
+    <ProjectReference Include="..\MuseumGuide.BO\MuseumGuide.BOL.csproj">
       <Project>{f57a2cfc-be3c-4af9-82f4-e92c695a1830}</Project>
-      <Name>MuseumGuide.BO</Name>
+      <Name>MuseumGuide.BOL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54F0D9AC-7F77-4F98-8247-85DF8EF23E65}</ProjectGuid>
+    <ProjectGuid>{F57A2CFC-BE3C-4AF9-82F4-E92C695A1830}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MuseumGuide.BLL</RootNamespace>
-    <AssemblyName>MuseumGuide.BLL</AssemblyName>
+    <RootNamespace>MuseumGuide.BO</RootNamespace>
+    <AssemblyName>MuseumGuide.BO</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,18 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MuseumGuide.BO\MuseumGuide.BO.csproj">
-      <Project>{f57a2cfc-be3c-4af9-82f4-e92c695a1830}</Project>
-      <Name>MuseumGuide.BO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MuseumGuide.DAL\MuseumGuide.DAL.csproj">
-      <Project>{dd0f5715-8ea9-4baa-a4b1-431cbc8382e1}</Project>
-      <Name>MuseumGuide.DAL</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

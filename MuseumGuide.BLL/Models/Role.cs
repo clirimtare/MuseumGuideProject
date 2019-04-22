@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MuseumGuide.DAL
+namespace MuseumGuide.BLL
 {
-    public class Class1
+    public class Role
     {
+        public int RoleID { get; set; }
+        public string Name { get; set; }
     }
 }

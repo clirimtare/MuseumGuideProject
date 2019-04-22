@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace MuseumGuideProject {
+namespace MuseumGuide.DAL.App_Data {
     
     
     /// <summary>
@@ -4606,7 +4606,7 @@ namespace MuseumGuideProject {
         }
     }
 }
-namespace MuseumGuideProject.MuseumDataSetTableAdapters {
+namespace MuseumGuide.DAL.App_Data.MuseumDataSetTableAdapters {
     
     
     /// <summary>
@@ -4793,7 +4793,7 @@ SELECT CategoryID, Type, InsertBy, InserDate, LUB, LUN, LUD FROM Category WHERE 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5260,7 +5260,7 @@ SELECT ExhibitID, Name, Description, StartDate, EndDate, ItemID, Floor, Sector, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5750,7 +5750,7 @@ SELECT ExhibitID, Name, Description, StartDate, EndDate, ItemID, Floor, Sector, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6116,7 +6116,7 @@ SELECT ItemID, Name, Description, CategoryID, Price, Priority, Floor, Sector, In
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6652,7 +6652,7 @@ SELECT RoleID, Name, LUB, LUN, LUD FROM Role WHERE (RoleID = @RoleID)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7093,7 +7093,7 @@ SELECT UserID, Name, Lastname, Role, Username, Password, LUB, LUN, LUD FROM [Use
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7591,7 +7591,7 @@ SELECT UserID, Name, Lastname, Role, Username, Password, LUB, LUN, LUD FROM [Use
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString;
+            this._connection.ConnectionString = global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7685,7 +7685,7 @@ SELECT UserID, Name, Lastname, Role, Username, Password, LUB, LUN, LUD FROM [Use
         private void InitCommandCollection() {
             this._commandCollection = new global::System.Data.IDbCommand[3];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandText = "dbo.CategoryCreateOrUpdate";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -7697,7 +7697,7 @@ SELECT UserID, Name, Lastname, Role, Username, Password, LUB, LUN, LUD FROM [Use
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LUN", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LUD", global::System.Data.SqlDbType.DateTime, 8, global::System.Data.ParameterDirection.Input, 23, 3, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandText = "dbo.RoleCreateOrUpdate";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -7707,7 +7707,7 @@ SELECT UserID, Name, Lastname, Role, Username, Password, LUB, LUN, LUD FROM [Use
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LUN", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LUD", global::System.Data.SqlDbType.DateTime, 8, global::System.Data.ParameterDirection.Input, 23, 3, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Connection = new global::System.Data.SqlClient.SqlConnection(global::MuseumGuideProject.Properties.Settings.Default.MuseumConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Connection = new global::System.Data.SqlClient.SqlConnection(global::MuseumGuide.DAL.Properties.Settings.Default.MuseumConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).CommandText = "dbo.UserCreateOrUpdate";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
